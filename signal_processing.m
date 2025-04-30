@@ -68,11 +68,11 @@ function Q1 = Q1Fun()
     %% Start your Q1 code here
     % DO NOT REMOVE OR MOVE THIS IF STATEMENT
     % WRITE YOUR CODE INSIDE THIS IF STATEMENT
-    if exist('u2263074_lab_Audio.mat', 'file') == 2 ... % Update with your student ID
-        && exist('u2263074_lab_signals.mat', 'file') == 2 % Update with your student ID
+    if exist('uXXXXXXX_lab_Audio.mat', 'file') == 2 ... % Update with your student ID
+        && exist('uXXXXXXX_lab_signals.mat', 'file') == 2 % Update with your student ID
 
-        load('u2263074_lab_Audio.mat', 'audioRaw') % Update with your student ID
-        load('u2263074_lab_signals.mat', 'n1') % Update with your student ID
+        load('uXXXXXXX_lab_Audio.mat', 'audioRaw') % Update with your student ID
+        load('uXXXXXXX_lab_signals.mat', 'n1') % Update with your student ID
         %%
         % Q1 part (a)
         Q1.audioInput =audioRaw;
@@ -396,8 +396,8 @@ function Q3 = Q3Fun()
     %%
     % DO NOT REMOVE THIS IF STATEMENT
     % WRITE YOUR CODE INSIDE THIS IF STATEMENT
-    if exist('u2263074_lab_signals.mat', 'file') == 2 % Update with your student ID
-        load('u2263074_lab_signals.mat', 'T') % Update with your student ID
+    if exist('uXXXXXXX_lab_signals.mat', 'file') == 2 % Update with your student ID
+        load('uXXXXXXX_lab_signals.mat', 'T') % Update with your student ID
 
     T_noisy = T; 
     
